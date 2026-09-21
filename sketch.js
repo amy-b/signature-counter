@@ -43,7 +43,7 @@ function setup() {
 
 
 function windowResized() {
-  resizeCanvas(windowWidth, 250);
+  resizeCanvas(windowWidth, windowHeight);
 }
 
 
