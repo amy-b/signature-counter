@@ -1,0 +1,59 @@
+/* BIG SIGNATURE NUMBER */
+
+#signature-counter {
+  position: absolute;
+
+  top: 30%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  z-index: 10;
+
+  margin: 0;
+  padding: 0;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: clamp(60px, 18vw, 110px);
+  font-weight: 700;
+  line-height: 1;
+
+  color: rgba(25, 25, 25, 0.82);
+
+  text-align: center;
+  pointer-events: none;
+}
+
+
+/* TEXT DIRECTLY UNDER NUMBER */
+
+#signature-label {
+  position: absolute;
+
+  top: calc(30% + 50px);
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  z-index: 10;
+
+  width: 90%;
+
+  margin: 0;
+  padding: 0;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: clamp(12px, 3.5vw, 18px);
+  font-weight: 700;
+  line-height: 1;
+
+  letter-spacing: 0.08em;
+
+  text-align: center;
+
+  color: rgba(25, 25, 25, 0.55);
+
+  pointer-events: none;
+}
