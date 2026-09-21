@@ -1,3 +1,41 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+
+  width: 100%;
+  height: 100%;
+
+  overflow: hidden;
+}
+
+body {
+  position: fixed;
+  inset: 0;
+}
+
+#counter-container {
+  position: absolute;
+  inset: 0;
+
+  width: 100%;
+  height: 100%;
+
+  overflow: hidden;
+}
+
+#counter-container canvas {
+  position: absolute;
+  inset: 0;
+
+  display: block;
+
+  width: 100% !important;
+  height: 100% !important;
+
+  z-index: 1;
+}
+
 /* BIG SIGNATURE NUMBER */
 
 #signature-counter {
